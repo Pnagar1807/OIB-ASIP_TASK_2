@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>My Portfolio</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ <link rel="stylesheet" href="protofolio.css">
+</head>
+<body>
+ <header class="header">
+    <a href="#" class="logo">Portfolio.</a>
+
+  <nav class="navbar">
+   <ul>
+    <a href="#Home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+ </header>
+ <section class="home">
+    <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>PAWAN NAGAR</h1>
+        <h3>And I'm a <span>Future Software Engineer</span></h3>
+        <p>Now I'm a student and studing in SVVV</p>
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-whatsapp-square'></i></a>
+
+        </div>
+        <a href="#" class="cv">Download CV</a>
+    </div>
+
+ </section>
+ 
+ <main>
+  <h2  class="about-me">About Me</h2><br><br>
+  <section id="about">
+   
+
+    <div class="home-img">
+      <img src="img/pavan.jpg" height="400" width="400">
+  </div>
+<br>
+    <ul class="circle">
+    <li>I am, <p>PAWAN NAGAR</p> </li><br>
+    <li>I am studig in SVVV </li><br>
+    <li>This is my first year of B.Tech and I'm fully enjoying it </li><br>
+    <li>I'm very interesting in Coding, Web Design And other work</li><br>
+    <li>I really like to design HTML and CSS code</li><br>
+    <li>I am doing very hardwork on my skills</li>
+    </ul>  
+  </section>
+
+  <section id="contact">
+   <h2>Contact Me</h2>
+   <form action="submit.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea><br>
+    <button type="submit">Send</button>
+   </form>
+  </section>
+ </main>
+
+ <footer>
+  <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+ </footer>
+</body>
+</html>
